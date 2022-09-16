@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, A11y } from 'swiper';
+import { Autoplay, A11y, FreeMode } from 'swiper';
 import { ProductCard } from '../ProductCard';
 import { Container } from './styles';
 
@@ -15,8 +15,11 @@ export function Menu() {
                delay: 2000,
                disableOnInteraction: false,
             }}
-            modules={[Autoplay, A11y]}
+            modules={[Autoplay, A11y, FreeMode]}
             className="mySwiper"
+            freeMode={{
+               enabled: true,
+             }}
          >
             <SwiperSlide>
                {' '}

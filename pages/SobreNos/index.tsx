@@ -1,26 +1,26 @@
 import Head from "next/head"
+import { Footer } from "../../components/Footer"
 import { Header } from "../../components/Header"
+import { Sobre } from "../../components/Sobre"
 
 
 export default function SobreNos () {
     return (
         <><Head>
-            <title> title </title>
+            <title> Sobre Nós </title>
 
             <meta
                 name="description"
-                content="Desenvolvedor Front-End especializado em React Next" />
-            <meta property="og:image" content="/ogimage.png" />
-            <meta property="og:image:secure_url" content="/ogimage.png" />
-            <meta name="twitter:image" content="/ogimage.png" />
-            <meta name="twitter:image:src" content="/ogimage.png" />
+                content="Loja de Eletrônicos Brasileira" />
             <meta
                 property="og:description"
-                content="write description here" />
+                content="Loja de Eletrônicos Brasileira" />
         </Head>
 
 
             <Header></Header>
+            <Sobre></Sobre>
+            <Footer></Footer>
             
             </>
            

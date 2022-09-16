@@ -1,25 +1,20 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
-display:flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
-background-color: ${props => props.theme.background};
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
+   background-color: ${(props) => props.theme.background};
+   background-image: url('/backgroundbanner2.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 
-font: 400 1rem 'Montserrat', sans-serif;
+   font: 400 1vw 'Montserrat', sans-serif;
 
-main {
-display: flex;
-flex-direction: column;
-   
-   img{
-    position:absolute;top:0;left:0;z-index:1;
-    width: 100vw;
-    height: 56.25vw ;
+   main {
+      display: flex;
+      flex-direction: column;
    }
-   div {
-    position:relative;z-index:5;color:white;
-   }
-
-}`
+`;

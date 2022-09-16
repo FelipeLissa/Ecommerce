@@ -2,10 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
    display: flex;
-   height: 32vw;
+   height: 22vw;
    width: 30vw;
    align-items: center;
    justify-content: center;
+   margin: 4vw;
    .product-div {
       height: 25vw;
       width: 25vw;
@@ -15,6 +16,7 @@ export const Container = styled.div`
       border-radius: 0.5vw;
       gap: 0.5vw;
       box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      background-color: white;
    }
    .product-img {
       height: 10vw;
@@ -23,8 +25,7 @@ export const Container = styled.div`
    }
    .product-img1 {
       height: 10vw;
-      width: 80%;
-      align-self: center;
+      border-radius: 0.5vw;
    }
    .product-title {
       font-size: 1.2vw;
